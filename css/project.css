@@ -1,0 +1,64 @@
+.project-content {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: auto;
+  background-color: white;
+  border-radius: 5%;
+  height: 100%;
+}
+.picture-content {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  height: 550px;
+  overflow: hidden;
+}
+.first:hover,
+.second:hover,
+.third:hover {
+  transform: scale(1.2);
+  z-index: 10;
+}
+
+.first {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.second {
+  position: absolute;
+  top: 200px;
+  left: 200px;
+}
+.third {
+  position: absolute;
+  top: 0px;
+  left: 400px;
+}
+.text-content {
+  display: grid;
+  grid-template-rows: repeat(3, auto) 1fr;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.title {
+  font-size: large;
+}
+.tech-stack {
+  display: grid;
+  grid-template-columns: 150px 150px;
+  background: #f8f8f8;
+  border-radius: 5px;
+  margin-top: 20px;
+  gap: 5px;
+  width: 300px;
+  justify-self: center;
+}
+.tech-stack div {
+  display: grid;
+  grid-template-columns: 20px 200px;
+  align-items: center;
+  padding: 4px;
+}

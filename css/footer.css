@@ -1,0 +1,9 @@
+footer {
+  background-color: #333;
+  padding-left: 5%;
+  padding-right: 5%;
+  display: grid;
+  grid-template-columns: 66% 33%;
+  align-items: center;
+  color: gray;
+}
