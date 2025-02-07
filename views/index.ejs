@@ -4,8 +4,31 @@
   <body>
     <header><%- include('partials/navbar') %></header>
     <main>
-      <%- include('partials/about') %> <%- include('partials/experience') %> <%-
-      include('partials/project') %><%- include('partials/contact') %>
+      <section class="mainSection">
+        <div class="chapterTitle">
+          <h1><%= langData.sections.about %></h1>
+        </div>
+        <%- include('partials/about', { about: langData.about }) %>
+      </section>
+      <section class="mainSection">
+        <div class="chapterTitle">
+          <h1><%= langData.sections.experience %></h1>
+        </div>
+        <%-include('partials/experience', {experience: langData.experience}) %>
+      </section>
+      <section class="mainSection">
+        <div class="chapterTitle">
+          <h1><%= langData.sections.projects %></h1>
+        </div>
+        <% langData.projects.forEach(project => { %> <%-
+        include("partials/project", { project }) %> <% }) %>
+      </section>
+      <section class="mainSection">
+        <div class="chapterTitle">
+          <h1><%= langData.sections.contact %></h1>
+        </div>
+        <%- include('partials/contact') %>
+      </section>
     </main>
     <%- include('partials/foot') %>
   </body>

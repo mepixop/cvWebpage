@@ -1,44 +1,33 @@
 <link rel="stylesheet" href="/about.css" />
-<section>
-  <h1 class="chapterTitle">About me</h1>
-  <div class="content">
-    <figure>
-      <img
-        src="images/me.png"
-        alt="Sara Bhatnagar"
-        width="auto"
-        height="300"
-        loading="lazy"
-      />
 
-      <figcaption>Picture of Sara Bhatnagar</figcaption>
-    </figure>
+<div class="content">
+  <img src="<%= about[0].image.src %>" alt="<%= about[0].image.alt %>" />
 
+  <div class="text-content">
+    <p><%= about[0].description %></p>
     <div>
-      <p>
-        Ich bin eine neugierige und lösungsorientierte Entwicklerin, die gerne
-        in einem kreativen und technisch interessantem Umfeld arbeitet.
-        Teamarbeit und Wissenstransfer sind mir besonders wichtig – ich liebe
-        es, gemeinsam neue Ideen zu entwickeln und umzusetzen. Strukturiertes,
-        eigenverantwortliches Arbeiten liegt mir, gleichzeitig schätze ich den
-        Austausch in einem offenen und unterstützenden Team. Von euch als
-        Arbeitgeber erwarte ich ein inspirierendes Umfeld, in dem ich wachsen,
-        lernen und meine Stärken gezielt einsetzen kann. Mein Ziel ist es, durch
-        individuelle Softwarelösungen echten Mehrwert für Kunden zu schaffen.
-      </p>
-      <h3>Persönliche Skills</h3>
+      <h2><%=about[0].title.personalSkillsTitle%></h2>
       <ul>
-        <li>Technologiebegeistert</li>
-        <li>Lernbereit und motiviert</li>
-        <li>Teamfähig und zuverlässig</li>
-        <li>Zielstrebig und engagiert Technische Skills</li>
+        <% about[0].personalSkills.forEach(skill => { %>
+        <li><%= skill %></li>
+        <% }) %>
       </ul>
-      <p>Basics durch Selbst Erarbeitung und innerhalb der Umschulung.</p>
-      <p><strong>Sprachen:</strong> Python, Java, TypeScript, JavaScript</p>
       <p>
-        <strong>Technologien:</strong> Angular, Firebase, HTML,CSS Agile
-        Methodik: Zertifizierter Scrum Master
+        <strong><%=about[0].title.technicalSkillsTitle%>:</strong> <%=
+        about[0].technicalSkills.summary %>
+      </p>
+      <p>
+        <strong><%=about[0].title.techLanguageTitle%>:</strong> <%=
+        about[0].technicalSkills.languages.join(", ") %>
+      </p>
+      <p>
+        <strong><%=about[0].title.techTechnologyTitle%>:</strong> <%=
+        about[0].technicalSkills.technologies.join(", ") %>
+      </p>
+      <p>
+        <strong><%=about[0].title.techAgileTitle%>:</strong> <%=
+        about[0].technicalSkills.agile %>
       </p>
     </div>
   </div>
-</section>
+</div>

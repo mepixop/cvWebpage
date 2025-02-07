@@ -1,0 +1,157 @@
+{
+  "portfolioTitle": "Portfolio Sara Bhatnagar",
+  "sections": {
+    "about": "Über mich",
+    "projects": "Projekte",
+    "contact": "Kontakt",
+    "experience": "Lebenslauf"
+  },
+  "about": [
+    {
+      "title": {
+        "MyName": "Sara Bhatnagar",
+        "pageTitle": "Über Mich",
+        "personalSkillsTitle": "Persönliche Fähigkeiten",
+        "technicalSkillsTitle": "Technische Fähigkeiten",
+        "techLanguageTitle": "Sprachen",
+        "techTechnologyTitle": "Technologien",
+        "techAgileTitle": "Agile Methoden"
+      },
+      "image": {
+        "src": "images/me-transparent.png",
+        "alt": "Sara Bhatnagar",
+        "caption": "Picture of Sara Bhatnagar"
+      },
+      "description": "Ich bin eine neugierige und lösungsorientierte Entwicklerin, die gerne in einem kreativen und technisch interessantem Umfeld arbeitet. Teamarbeit und Wissenstransfer sind mir besonders wichtig – ich liebe es, gemeinsam neue Ideen zu entwickeln und umzusetzen. Strukturiertes, eigenverantwortliches Arbeiten liegt mir, gleichzeitig schätze ich den Austausch in einem offenen und unterstützenden Team. Von euch als Arbeitgeber erwarte ich ein inspirierendes Umfeld, in dem ich wachsen, lernen und meine Stärken gezielt einsetzen kann. Mein Ziel ist es, durch individuelle Softwarelösungen echten Mehrwert für Kunden zu schaffen.",
+      "personalSkills": [
+        "Technologiebegeistert",
+        "Lernbereit und motiviert",
+        "Teamfähig und zuverlässig",
+        "Zielstrebig und engagiert"
+      ],
+      "technicalSkills": {
+        "summary": "Basics durch Selbst Erarbeitung und innerhalb der Umschulung.",
+        "languages": ["Python", "Java", "TypeScript", "JavaScript"],
+        "technologies": ["Angular", "Firebase", "HTML", "CSS"],
+        "agile": "Zertifizierter Scrum Master"
+      }
+    }
+  ],
+  "experience": [
+    {
+      "title": {
+        "titleFirstTable": "Kernkompetenzen",
+        "titleSecondTable": "Bildungsweg",
+        "tableCol1": "Zeitraum",
+        "tableCol2": "Details"
+      },
+      "work": [
+        {
+          "timeframe": "10/2021 – 05/2023",
+          "position": "Verkäuferin",
+          "company": "Brothaus, Hausen",
+          "details": [
+            "Sicherstellung der Qualität der Backwaren durch regelmäßige Kontrollen",
+            "Übernahme der Schichtverantwortung, Einarbeitung neuer Kollegen",
+            "Durchführung des Kassenschlusses und der Kassenabrechnung des Tages"
+          ]
+        },
+        {
+          "timeframe": "09/2019 – 09/2020",
+          "position": "Ausbildung Fachinformatiker (SI)",
+          "company": "Wimmer IT, Ebermannstadt",
+          "details": [
+            "Einrichtung von Windows-Lenovo-Laptops und Installation von Software",
+            "Kundenorientierter Support und Lösung von IT-Problemen",
+            "Aufbau und Konfiguration von Arbeitsplätzen, inklusive IP-Telefonen und Netzwerktechnologie"
+          ]
+        },
+        {
+          "timeframe": "10/2018 – 08/2019",
+          "position": "Verkaufshelferin",
+          "company": "Packmers, Forchheim",
+          "details": [
+            "Kundenorientierte Beratung und Unterstützung beim Einkauf"
+          ]
+        },
+        {
+          "timeframe": "12/2015 – 08/2016",
+          "position": "Eingliederungsmaßnahme EQJ Fachinformatiker (AW)",
+          "company": "Nav-IT, Hirschaid",
+          "details": [
+            "Entwicklung von Erweiterungen für Microsoft ERP-Systeme unter Verwendung von C/AL",
+            "Ausbildung zum Fachinformatiker (AW)"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "timeframe": "02/2024 – Heute",
+          "title": "Umschulung",
+          "school": "GFN, Nürnberg",
+          "details": "Zweijährige Umschulung zur Fachinformatikerin in der Anwendungsentwicklung"
+        },
+        {
+          "timeframe": "01/2014 – 07/2014",
+          "title": "BVB",
+          "school": "Kolping, Bamberg",
+          "details": "Berufsvorbereitende Bildungsmaßnahme"
+        },
+        {
+          "timeframe": "10/2006 – 08/2012",
+          "title": "Mittlere Reife",
+          "school": "Mittelhofschule, Ellwangen (Jagst)",
+          "details": "Allgemeine Schulbildung"
+        }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "Recipe Book",
+      "description": [
+        "Ein digitales Rezeptbuch, das Benutzern hilft, ihre Lieblingsrezepte zu speichern und zu organisieren.",
+        "Mit Funktionen zum Hinzufügen, Bearbeiten und Kategorisieren von Rezepten."
+      ],
+      "techStack": ["Angular", "Typescript", "Firebase", "HTML5, CSS"],
+      "screenshots": [
+        {
+          "src": "images/recipebook_1.png",
+          "caption": "Screenshot von Recipe Book. Klicken, um GitHub zu öffnen."
+        },
+        {
+          "src": "images/recipebook_2.png",
+          "caption": "Screenshot von Recipe Book. Klicken, um GitHub zu öffnen."
+        }
+      ]
+    },
+    {
+      "title": "Testinator",
+      "description": [
+        "Ein Tool zur Automatisierung von Tests für Webanwendungen.",
+        "Bietet Funktionen zur Erstellung und Verwaltung von Testsuiten."
+      ],
+      "techStack": [
+        "Express",
+        "Javascript",
+        "Firebase",
+        "HTML5, CSS",
+        "EJS Template"
+      ],
+      "screenshots": [
+        {
+          "src": "images/testinator_codepart.png",
+          "caption": "Screenshot von Testinator. Klicken, um GitHub zu öffnen."
+        },
+        {
+          "src": "images/testinator_databasepart.png",
+          "caption": "Screenshot von Testinator. Klicken, um GitHub zu öffnen."
+        },
+        {
+          "src": "images/testinator_home.png",
+          "caption": "Screenshot von Testinator. Klicken, um GitHub zu öffnen."
+        }
+      ]
+    }
+  ]
+}
