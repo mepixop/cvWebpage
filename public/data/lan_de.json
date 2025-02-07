@@ -4,6 +4,7 @@
     "about": "Über mich",
     "projects": "Projekte",
     "contact": "Kontakt",
+    "contactMe": "Mein Kontakt",
     "experience": "Lebenslauf"
   },
   "about": [
@@ -22,7 +23,8 @@
         "alt": "Sara Bhatnagar",
         "caption": "Picture of Sara Bhatnagar"
       },
-      "description": "Ich bin eine neugierige und lösungsorientierte Entwicklerin, die gerne in einem kreativen und technisch interessantem Umfeld arbeitet. Teamarbeit und Wissenstransfer sind mir besonders wichtig – ich liebe es, gemeinsam neue Ideen zu entwickeln und umzusetzen. Strukturiertes, eigenverantwortliches Arbeiten liegt mir, gleichzeitig schätze ich den Austausch in einem offenen und unterstützenden Team. Von euch als Arbeitgeber erwarte ich ein inspirierendes Umfeld, in dem ich wachsen, lernen und meine Stärken gezielt einsetzen kann. Mein Ziel ist es, durch individuelle Softwarelösungen echten Mehrwert für Kunden zu schaffen.",
+      "slogan": "Innovating Together, Creating Impactful Solutions",
+      "description": "Software Developer.",
       "personalSkills": [
         "Technologiebegeistert",
         "Lernbereit und motiviert",
@@ -40,7 +42,7 @@
   "experience": [
     {
       "title": {
-        "titleFirstTable": "Kernkompetenzen",
+        "titleFirstTable": "Arbeitsweg",
         "titleSecondTable": "Bildungsweg",
         "tableCol1": "Zeitraum",
         "tableCol2": "Details"
@@ -116,12 +118,14 @@
       "techStack": ["Angular", "Typescript", "Firebase", "HTML5, CSS"],
       "screenshots": [
         {
+          "link": "https://github.com/mepixop/projects/tree/main/apps/meal-planner",
           "src": "images/recipebook_1.png",
-          "caption": "Screenshot von Recipe Book. Klicken, um GitHub zu öffnen."
+          "caption": "Screenshot Projektstruktur. Klicken, um GitHub zu öffnen."
         },
         {
+          "link": "https://github.com/mepixop/projects/tree/main/apps/meal-planner",
           "src": "images/recipebook_2.png",
-          "caption": "Screenshot von Recipe Book. Klicken, um GitHub zu öffnen."
+          "caption": "Datenbankausschnitt"
         }
       ]
     },
@@ -140,16 +144,14 @@
       ],
       "screenshots": [
         {
-          "src": "images/testinator_codepart.png",
-          "caption": "Screenshot von Testinator. Klicken, um GitHub zu öffnen."
-        },
-        {
+          "link": "https://github.com/mepixop/testinator",
           "src": "images/testinator_databasepart.png",
-          "caption": "Screenshot von Testinator. Klicken, um GitHub zu öffnen."
+          "caption": "Datenbankausschnitt"
         },
         {
+          "link": "https://github.com/mepixop/testinator",
           "src": "images/testinator_home.png",
-          "caption": "Screenshot von Testinator. Klicken, um GitHub zu öffnen."
+          "caption": "Homepageausschnitt. Klicken, um GitHub zu öffnen."
         }
       ]
     }

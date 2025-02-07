@@ -1,0 +1,29 @@
+<link rel="stylesheet" href="/contact.css" />
+<div class="container">
+  <form action="/contact" method="POST">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name.." />
+
+    <label for="lname">Last Name</label>
+    <input
+      type="text"
+      id="lname"
+      name="lastname"
+      placeholder="Your last name.."
+    />
+    <label for="email">email</label>
+    <input type="email" id="email" name="email" placeholder="Your email" />
+    <label for="Phone">Phone</label>
+    <input type="tel" id="Phone" name="Phone" placeholder="Your Phonenr." />
+
+    <label for="subject">Subject</label>
+    <textarea
+      id="subject"
+      name="subject"
+      placeholder="Write something.."
+      style="height: 200px"
+    ></textarea>
+
+    <input type="submit" value="Submit" />
+  </form>
+</div>

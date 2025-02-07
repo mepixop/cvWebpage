@@ -1,14 +1,16 @@
 <link rel="stylesheet" href="/nav.css" />
 <nav>
   <ul>
+    <li><a href="#about">Sara Bhatnagar</a></li>
+
     <li>
-      <a href=""> About me</a>
+      <a href="#about"><%=langData.sections.about %></a>
     </li>
     <li>
-      <a href=""> My Projects</a>
+      <a href="#projects"> <%=langData.sections.projects %></a>
     </li>
     <li style="float: right">
-      <a class="active" href="contact-me.html">Kontakt me</a>
+      <a class="active" href="#contact"><%= langData.sections.contactMe %></a>
     </li>
   </ul>
 </nav>

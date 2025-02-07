@@ -2,10 +2,13 @@
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-rows: auto;
-  background-color: white;
+  background-color: rgb(255, 236, 220);
   border-radius: 5%;
   height: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
+
 .picture-content {
   display: flex;
   justify-content: center;

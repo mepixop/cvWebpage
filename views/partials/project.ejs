@@ -8,7 +8,11 @@
       <figure
         class="<%= index === 0 ? 'overlapping first' : index === 1 ? 'second' : 'third' %>"
       >
-        <a href="https://github.com" title="GitHub Link">
+        <a
+          href="<%= screenshot.link || 'https://default-link.com' %>"
+          title="<%= screenshot.caption %>"
+          target="_blank"
+        >
           <img
             src="<%= screenshot.src %>"
             alt="<%= screenshot.caption %>"
